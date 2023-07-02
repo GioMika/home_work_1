@@ -1,0 +1,48 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+#root{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+gap: 10px;
+}
+
+.all_elements {
+  display: flex;
+  width: 100%;
+  height: 360px;
+border: 1px solid black;
+
+}
+
+.div_elem{
+  display: flex;
+  justify-items: flex-end;
+padding-top: 250px;
+position: absolute;
+padding-left: 310px;
+}
+
+
+.images {
+  width: 350px; 
+  height: 350px;
+
+
+}
+
+.textContent {
+color: rgb(187, 32, 32);
+font-size: 15px;
+padding-left: 20px;
+
+}
+
+
